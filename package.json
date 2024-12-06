@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "pnpm run build && dotenvx run -- nodemon --watch src ./dist/index.js",
-    "start": "pnpm run build && dotenvx run -- node ./dist/index.js"
+    "start": "dotenvx run -- node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
