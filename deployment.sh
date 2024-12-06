@@ -6,7 +6,7 @@
 
 AZURE_CONTAINER_REGISTRY="acraccountingsystemdev"
 AZURE_CONTAINER_NAME="graphql-accountingsystem"
-CURRENT_VERSION="0.0.3"
+CURRENT_VERSION="0.0.5"
 
 docker build --platform linux/amd64 -t $AZURE_CONTAINER_NAME-dev:latest . --load
 
